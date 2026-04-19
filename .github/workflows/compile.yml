@@ -1,0 +1,30 @@
+name: Compile Typst to PDF
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  compile:
+    name: Compile hacksu.typ
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Install Typst
+        uses: typst-community/setup-typst@v5
+
+      - name: Compile to PDF
+        run: typst compile hacksu.typ hacksu.pdf
+
+      - name: Upload PDF artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: hacksu-pdf
+          path: hacksu.pdf
+          retention-days: 90

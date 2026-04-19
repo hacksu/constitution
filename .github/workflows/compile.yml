@@ -25,6 +25,25 @@ jobs:
       - name: Compile to PDF
         run: typst compile hacksu.typ hacksu.pdf
 
+      - name: Create index.html
+        run: |
+          cat > index.html << 'EOF'
+          <!DOCTYPE html>
+          <html>
+          <head>
+            <meta charset="utf-8">
+            <title>HackSU Constitution</title>
+            <style>
+              body, html { margin: 0; padding: 0; height: 100%; overflow: hidden; }
+              embed { width: 100%; height: 100%; }
+            </style>
+          </head>
+          <body>
+            <embed src="hacksu.pdf" type="application/pdf" width="100%" height="100%">
+          </body>
+          </html>
+          EOF
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:

@@ -93,7 +93,7 @@
       inset: (x: 2.5em, y: 2.2em),
     )[
       #align(center)[
-        #text(size: 9pt, tracking: 4pt)[#upper[Registered Student Organization]]
+        #text(size: 9pt, tracking: 4pt)[#upper[Student Organization]]
         #v(0.5em)
         #line(length: 55%, stroke: 0.7pt)
         #v(0.8em)
@@ -133,11 +133,11 @@
 
 == Preamble
 
-We, the members of HacKSU, a registered student organization at Kent State University, establish this Constitution to guide the governance and operations of our club. Committed to the advancement of practical knowledge in software development and information technology, we seek to cultivate a community where students may develop professional skills, engage with industry, and contribute to the broader technology culture at Kent State University. In furtherance of these goals, and in accordance with the policies of Kent State University and the laws of the State of Ohio, we hereby ordain and establish this Constitution as the governing document of HacKSU.
+We, the members of HacKSU, a student organization at Kent State University, establish this Constitution to guide the governance and operations of our club. Committed to the advancement of practical knowledge in software development and information technology, we seek to cultivate a community where students may develop professional skills, engage with industry, and contribute to the broader technology culture at Kent State University. In furtherance of these goals, and in accordance with the policies of Kent State University and the laws of the State of Ohio, we hereby ordain and establish this Constitution as the governing document of HacKSU.
 
 == Article 1: Name
 
-The name of this organization shall be HacKSU, hereinafter referred to as "the club". The club is a registered student organization at Kent State University. The club may represent itself under the name "Kent Hack Enough" solely for purposes of communication and branding related to its annual Hackathon event.
+The name of this organization shall be HacKSU, hereinafter referred to as "the club". The club is a student organization at Kent State University. The club may represent itself under the name "Kent Hack Enough" solely for purposes of communication and branding related to its annual Hackathon event.
 
 == Article 2: Purpose
 === Section 1
@@ -236,4 +236,4 @@ Once adopted, all amendments shall be submitted to the Office of Campus Life at 
 == Article 10: Jurisdiction
 
 === Section 1
-The club is subject, as a registered student organization, to the rules, regulations, and policies of Kent State University and the laws of the State of Ohio. The rules, regulations, and policies of Kent State University shall take precedence over any and all rules, regulations, and policies applying to the club, including any rules, regulations, or policies of affiliate organizations.
+The club is subject, as a student organization, to the rules, regulations, and policies of Kent State University and the laws of the State of Ohio. The rules, regulations, and policies of Kent State University shall take precedence over any and all rules, regulations, and policies applying to the club, including any rules, regulations, or policies of affiliate organizations.
